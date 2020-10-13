@@ -76,7 +76,8 @@ namespace ApiXUnit.Model
         }
 
          [Fact]
-          [Trait("Category","BaseAction")]
+         [Trait("Category","BaseAction")]
+       
         public void Calculator_Test_Sub()
         {
             //Arrange
