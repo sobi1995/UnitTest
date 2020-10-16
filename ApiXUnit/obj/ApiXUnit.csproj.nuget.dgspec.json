@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\ApiXUnit.csproj": {}
+    "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\ApiXUnit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\ApiXUnit.csproj": {
+    "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\ApiXUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\ApiXUnit.csproj",
+        "projectUniqueName": "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\ApiXUnit.csproj",
         "projectName": "ApiXUnit",
-        "projectPath": "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\ApiXUnit.csproj",
+        "projectPath": "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\ApiXUnit.csproj",
         "packagesPath": "C:\\Users\\baran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\obj\\",
+        "outputPath": "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\ApiXUnit\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj": {
-                "projectPath": "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj"
+              "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj": {
+                "projectPath": "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj": {
+    "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj",
+        "projectUniqueName": "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj",
+        "projectPath": "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\baran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\obj\\",
+        "outputPath": "c:\\Users\\baran\\Desktop\\Treash\\UnitTest\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baran\\AppData\\Roaming\\NuGet\\NuGet.Config",
