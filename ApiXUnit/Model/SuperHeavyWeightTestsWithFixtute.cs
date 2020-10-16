@@ -1,15 +1,20 @@
 using System;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace ApiXUnit.Model
 {
+    
     public class SuperHeavyWeightTestsWithFixtute : IClassFixture<SuperHeavyWeightFixture>
     {
         private readonly SuperHeavyWeightFixture _fixture;
-
-        public SuperHeavyWeightTestsWithFixtute(SuperHeavyWeightFixture fixture)
+        private readonly ITestOutputHelper output;
+        public SuperHeavyWeightTestsWithFixtute(SuperHeavyWeightFixture fixture, ITestOutputHelper output)
         {
             _fixture = fixture;
+            this.output = output;
+            output.WriteLine("run constructor method 2");
+
         }
 
         [Fact]
