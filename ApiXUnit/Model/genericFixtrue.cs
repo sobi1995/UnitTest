@@ -14,7 +14,7 @@ namespace ApiXUnit.Model
 
         public void Dispose()
         {
-            Sut.Dispose();
+            // Sut.Dispose();
        
         }
     }

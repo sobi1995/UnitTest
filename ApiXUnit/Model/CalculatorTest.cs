@@ -130,15 +130,15 @@ namespace ApiXUnit.Model
         [MemberData(nameof(CalculatorData.GetNumbers), MemberType = typeof(CalculatorData))]
         public void Calculate_Test_By_Action(int n1, int n2, Action action, int result)
         {
-            //Arrange
-            var _calculator = new Calculator();
-            int n = 8;
-            //Act
-            int resultCalculate = _calculator.Calculate(n1,n2,action);
-
-            //Assert
+            int resultCalculate = _fixture.Sut.Calculate(n1,n2,action);
             Assert.Equal(result,resultCalculate);
         }
-
+ [Theory]
+        [MemberData(nameof(CalculatorData.GetNumbersّFromTxtFile), MemberType = typeof(CalculatorData))]
+        public void Calculate_Test_By_Action_From_Extrnal_File(int n1, int n2, Action action, int result)
+        {
+            int resultCalculate = _fixture.Sut.Calculate(n1,n2,action);
+            Assert.Equal(result,resultCalculate);
+        }
     }
 }
