@@ -98,4 +98,4 @@ C:\Users\baran\Desktop\Treash\UnitTest\ApiXUnit\obj\Debug\netcoreapp3.1\ApiXUnit
 C:\Users\baran\Desktop\Treash\UnitTest\ApiXUnit\obj\Debug\netcoreapp3.1\ApiXUnit.csproj.CopyComplete
 C:\Users\baran\Desktop\Treash\UnitTest\ApiXUnit\obj\Debug\netcoreapp3.1\ApiXUnit.dll
 C:\Users\baran\Desktop\Treash\UnitTest\ApiXUnit\obj\Debug\netcoreapp3.1\ApiXUnit.pdb
-C:\Users\baran\Desktop\Treash\UnitTest\ApiXUnit\bin\Debug\netcoreapp3.1\Model\data.txt
+C:\Users\baran\Desktop\Treash\UnitTest\ApiXUnit\bin\Debug\netcoreapp3.1\data.txt
