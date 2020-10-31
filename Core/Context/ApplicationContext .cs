@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Core.Context
 {
@@ -14,6 +15,9 @@ namespace Core.Context
         {
         }
 
-
+        internal Task FindAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
