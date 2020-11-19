@@ -13,10 +13,15 @@ namespace Api.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IUserServises _userServises;
-        public UserController(IUserServises userServises)
+        private readonly IUserServises _userServises; 
+        private readonly ILogFileServises _logFileServises;
+        public UserController(
+            IUserServises userServises,
+            ILogFileServises logFileServises)
         {
             _userServises = userServises;
+            _logFileServises = logFileServises;
+  
         }
         // GET: api/User
         [HttpGet]

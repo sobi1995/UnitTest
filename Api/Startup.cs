@@ -37,7 +37,8 @@ namespace Api
                                 .Replace("|DataDirectory|", Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "app_data")));
        
             });
-            services.AddTransient<IUserServises, UserServises>();
+            services.AddScoped<IUserServises, UserServises>(); 
+            services.AddScoped<ILogFileServises, LogFileServises>();
             services.AddSwaggerGen();
         }
 
