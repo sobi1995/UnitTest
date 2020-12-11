@@ -12,7 +12,7 @@ namespace Core.Services
 
         public LogFileServises()
         {
-            FileName = $"{Directory.GetCurrentDirectory()}/wwwroot/log.txt";
+            FileName = $"{Directory.GetCurrentDirectory()}//log.txt";
 
         }
 

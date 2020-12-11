@@ -1,6 +1,7 @@
 using System;
 using System.Threading;
-using Api.Controllers;
+
+using AppConsole;
 using Xunit;
 using Xunit.Abstractions;
 

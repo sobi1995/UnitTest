@@ -1,5 +1,6 @@
 using System.ComponentModel;
-using Api.Model;
+
+using AppConsole;
 using Xunit;
 
 namespace ApiXUnit.Model

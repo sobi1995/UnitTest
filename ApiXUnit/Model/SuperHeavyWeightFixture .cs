@@ -1,6 +1,6 @@
+using AppConsole;
 using System;
-using Api.Controllers;
-
+ 
 namespace ApiXUnit.Model
 {
     public class SuperHeavyWeightFixture : IDisposable

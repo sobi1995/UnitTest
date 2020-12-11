@@ -1,5 +1,5 @@
 using System;
-using Api.Controllers;
+ 
 namespace ApiXUnit.Model
 {
     public class GenericFixtrue<T> : IDisposable where T :class,IDisposable ,new()
